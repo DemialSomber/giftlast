@@ -1,0 +1,124 @@
+@font-face {
+  font-family: "Multiround Pro";
+  src: url("../../../fonts/MultiroundProRegular.eot");
+  src: url("../../../fonts/MultiroundProRegular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../../fonts/MultiroundProRegular.woff2") format("woff2"),
+    url("../../../fonts/MultiroundProRegular.woff") format("woff"),
+    url("../../../fonts/MultiroundProRegular.ttf") format("truetype"),
+    url("../../../fonts/MultiroundProRegular.svg#MultiroundProRegular")
+      format("svg");
+
+  font-style: normal;
+}
+
+body {
+  font-family: "Multiround Pro";
+  color: white;
+  background: rgb(255, 121, 105);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 121, 105, 1) 0%,
+    rgba(255, 177, 106, 1) 100%
+  );
+}
+.h1 {
+  margin: 0;
+  color: #333333;
+  font-size: 150px;
+}
+.h2 {
+  margin: 0;
+  color: #333333;
+  font-size: 60px;
+}
+.p {
+  margin: 0;
+  color: #333333;
+  font-size: 30px;
+}
+.hrForm {
+  width: 350px;
+  border: 1px solid #666666;
+}
+.hrText {
+  margin: 35px 0 35px 0;
+  width: 800px;
+  border: 1px solid #333333;
+}
+select {
+  font-family: "Multiround Pro";
+  width: 350px;
+  height: 38px;
+  font-size: 21px;
+  border: 2px solid white;
+  border-radius: 100px;
+  padding: 5px;
+  background-color: white;
+  color: #333333;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 15px;
+}
+/* .grid {
+	margin-top: 50px;
+  display: grid;
+  grid-template-columns: 50% 500px;
+} */
+.contentMain {
+  display: flex;
+}
+.textMain {
+  width: calc(1980px - 582px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  border: 1px solid #002e52;
+  border-radius: 20px;
+  width: 480px;
+  display: flex;
+  justify-content: center;
+  margin: auto 100px auto auto;
+  background-color: #333333;
+}
+.formInside {
+  width: 350px;
+}
+.formInside h2,
+.age,
+input {
+  text-align: center;
+}
+.forPeopleSvg {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 190px;
+}
+button {
+  font-family: "Multiround Pro";
+  display: block;
+  margin: 50px auto;
+  width: 350px;
+  font-size: 30px;
+  border: 0 solid transparent;
+  border-radius: 25px;
+  padding: 5px;
+  background: rgb(255, 177, 106);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 177, 106, 1) 0%,
+    rgba(255, 121, 105, 1) 100%
+  );
+  color: #333333;
+  font-weight: bold;
+  cursor: pointer;
+}
+button:hover {
+  background: rgb(255, 177, 106);
+  width: 320px;
+}
